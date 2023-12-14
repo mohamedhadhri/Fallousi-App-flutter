@@ -1,0 +1,33 @@
+name: couveuse
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.5 <3.0.0'
+
+dependencies:
+  animated_splash_screen: ^1.3.0
+  count_stepper: ^0.0.4
+  firebase_auth: ^4.6.2
+  firebase_database: ^10.2.2
+  firebase_messaging: ^14.6.2
+  flutter:
+    sdk: flutter
+  google_fonts: ^4.0.4
+  intl: ^0.18.1
+  lottie: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/22091-little-chicken.json
+    - assets/falousi.png
+    - assets/login.png
+    - assets/falouusi.png
+    - assets/fallousi.png
